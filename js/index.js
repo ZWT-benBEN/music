@@ -144,7 +144,8 @@ $(function(){
 
 	$(document).on('mouseup',function(){
 		$(this).off('mousemove');
-		$('tiao1').removeClass('tiao2')
+		$('.tiao1').removeClass('tiao2');
+		$('.qiuqiu').removeClass('qiuqiu1')
 	})
 
 
